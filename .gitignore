@@ -1,0 +1,85 @@
+# Игнорирование файлов операционной системы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Игнорирование файлов редакторов и IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.iml
+.project
+.classpath
+.settings/
+
+# Игнорирование системных файлов Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+*.log
+
+# Игнорирование системных файлов Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+.env
+dist/
+build/
+
+# Игнорирование системных файлов Java
+*.class
+*.jar
+*.war
+*.ear
+target/
+*.mf
+*.lst
+
+# Игнорирование системных файлов C/C++
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.app
+
+# Игнорирование файлов временных данных
+tmp/
+temp/
+*.tmp
+*.temp
+*.cache
+
+# Игнорирование конфигурационных файлов с секретами
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+.env.local
+.env.*.local
+
+# Игнорирование файлов логов
+logs/
+*.log
